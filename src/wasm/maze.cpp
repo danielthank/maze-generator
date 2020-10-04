@@ -20,7 +20,7 @@ Node::Node() : wall(0) {}
 
 void Node::open(int index) { wall |= (1 << index); }
 
-bool Node::top() { return wall & (1 << 0); }
+bool Node::up() { return wall & (1 << 0); }
 
 bool Node::down() { return wall & (1 << 1); }
 

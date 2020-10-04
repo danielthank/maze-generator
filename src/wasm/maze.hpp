@@ -6,7 +6,7 @@ class Node {
 public:
   Node();
   void open(int);
-  bool top();
+  bool up();
   bool down();
   bool left();
   bool right();
